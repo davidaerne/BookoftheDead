@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book of the Dead</title>
+    <style>
+        body {
+            font-family: "Georgia", serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .card-header {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+            border-bottom: 2px solid #222;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #222;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .ability {
+            margin-bottom: 15px;
+        }
+
+        .ability-title {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .flavor-text {
+            font-style: italic;
+            color: #888;
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">Book of the Dead</div>
+        <div class="card-content">
+            <div class="section">
+                <div class="section-title">Wondrous Item</div>
+                <p><strong>Requires Attunement:</strong> Cleric or Warlock</p>
+                <p>This ancient tome, bound in dark leather and inscribed with faintly glowing runes, serves as both a conduit to the dead and a protector of the living. Its yellowed pages seem endless, filling with names as the wielder's connection to life and death deepens.</p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Abilities</div>
+
+                <div class="ability">
+                    <div class="ability-title">Communion with the Departed</div>
+                    <p>You always have the spell <strong>Speak with Dead</strong> prepared, and it does not count against the spells you know.</p>
+                    <p>You can cast <strong>Speak with Dead</strong> once per long rest without expending a spell slot or requiring material components by writing the name of the deceased into the book.</p>
+                </div>
+
+                <div class="ability">
+                    <div class="ability-title">Names of the Bound</div>
+                    <p>The book can hold a number of names equal to your <strong>proficiency bonus</strong>. With your permission, a creature can use its action to inscribe its name into the book.</p>
+                </div>
+
+                <div class="ability">
+                    <div class="ability-title">Twilight Ward</div>
+                    <p>When a creature whose name is in the book would be reduced to 0 hit points (but not killed outright), you can use your <strong>reaction</strong> to summon a ward that absorbs the damage.</p>
+                    <p>The damage is reflected back to the attacker, who must make a <strong>Constitution saving throw</strong> against your <strong>spell save DC</strong>:</p>
+                    <ul>
+                        <li><strong>Failure:</strong> The attacker takes half the damage inflicted on the target.</li>
+                        <li><strong>Success:</strong> The attacker takes no damage, and the ward dissipates.</li>
+                    </ul>
+                    <p>Once triggered, no creature can benefit from this ability until you finish a long rest.</p>
+                </div>
+
+                <div class="ability">
+                    <div class="ability-title">Sending Across the Veil</div>
+                    <p>You can cast <strong>Sending</strong> targeting a creature whose name is in the book without expending a spell slot or requiring material components. To do so, write your message in the book.</p>
+                    <p>The target hears the message in their mind. If they reply, their message appears on the page instead of in your mind. The writing disappears after 1 minute.</p>
+                </div>
+
+                <div class="ability">
+                    <div class="ability-title">Erasure</div>
+                    <p>As an action, you can magically erase any name from the book by touching it.</p>
+                </div>
+            </div>
+
+            <div class="flavor-text">
+                “A keeper of names, a guide to the lost, and a shield to those in peril—this tome bridges the gap between the worlds of the living and the dead.”
+            </div>
+        </div>
+    </div>
+</body>
+</html>
